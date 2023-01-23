@@ -3,7 +3,7 @@ layout: code
 title: Config Map
 permalink: /kubernetes-config-map-1/
 ---
-```yaml
+{% highlight yaml %}
 apiVersion: v1
 kind: Pod
 metadata:
@@ -42,4 +42,4 @@ spec:
         path: "game.properties"
       - key: "user-interface.properties"
         path: "user-interface.properties"
-```
+{% endhighlight %}
