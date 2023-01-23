@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: code
 title: Config Map
 permalink: /kubernetes-config-map-1/
 ---
